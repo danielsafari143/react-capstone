@@ -1,0 +1,144 @@
+@import url('https://fonts.cdnfonts.com/css/gill-sans-mt-2');
+* {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans MT', sans-serif;
+  box-sizing: border-box;
+}
+
+.country {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 40px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.linke-div p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.linke-div {
+  margin-left: 20px;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c92571;
+}
+
+.flag-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.flag {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.flag-name {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 10px 10px;
+}
+
+.flag-name img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.details {
+  padding: 20px;
+  background-color: #ea4492;
+}
+
+.dtls {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  width: 98.8vw;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.map {
+  width: 98.8vw;
+}
+
+.home {
+  background-color: #ea4492;
+}
+
+.pair-red {
+  background-color: #c92571;
+}
+
+.crt-details {
+  height: 20px;
+  padding: 15px 10px 15px 10px;
+  background-color: #c92571;
+  font-size: smaller;
+  font-weight: bolder;
+}
+
+.liste {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.liste p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-weight: 570;
+  font-size: large;
+}
+
+.inpute {
+  background-color: #ea4492;
+  border: none;
+  padding: 5px;
+}
