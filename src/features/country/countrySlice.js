@@ -41,9 +41,11 @@ const countrySlice = createSlice({
       const receivedCountry = action.payload.toLowerCase();
       const data = filteredState.filter((item) => (
         item.name.common.toLowerCase().includes(receivedCountry)));
-      state.country = [];
-      state.country = filteredState;
-      state.country = data;
+      if ((data.length % 2) === 0 || data.length === 1) {
+        state.country = [];
+        state.country = filteredState;
+        state.country = data;
+      }
     },
     searchDetails: (state, action) => {
       const filteredSate = [...state.country];
