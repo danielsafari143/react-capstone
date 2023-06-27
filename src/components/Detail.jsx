@@ -15,7 +15,7 @@ const Detail = () => {
   useEffect(() => {
     dispatch(searchDetails(country));
     dispatch(loading(true));
-  }, [dispatch]);
+  }, [country, dispatch]);
 
   return (
     <div>
@@ -31,9 +31,9 @@ const Detail = () => {
                         <SimpleMap lat={item.latlng[0]} lng={item.latlng[1]} />
                       </div>
                       <div>
-                        <ul>
-                          <li className="crt-details">COUNTRY DETAILS</li>
-                          <li className="liste">
+                        <ul className="ul">
+                          <li className="crt-details li">COUNTRY DETAILS</li>
+                          <li className="liste li">
                             <p>CAPITAL </p>
                             {' '}
                             <p>
@@ -42,7 +42,7 @@ const Detail = () => {
                               <IconArrowRightCircle />
                             </p>
                           </li>
-                          <li className="pair-red liste">
+                          <li className="pair-red liste li">
                             <p>AREA </p>
                             <p>
                               {' '}
@@ -53,7 +53,7 @@ const Detail = () => {
                               <IconArrowRightCircle />
                             </p>
                           </li>
-                          <li className="liste">
+                          <li className="liste li">
                             <p>POPULATION </p>
                             <p>
                               {item.population}
@@ -61,7 +61,7 @@ const Detail = () => {
                               <IconArrowRightCircle />
                             </p>
                           </li>
-                          <li className="pair-red liste">
+                          <li className="pair-red liste li">
                             <p>CONTINENT</p>
                             <p>
                               {' '}

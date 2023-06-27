@@ -10,12 +10,13 @@ const Seach = () => {
     <div>
       <input
         className="inpute"
-        type="text"
+        type="search"
         onChange={(e) => {
           dispatch(filterCountry(e.target.value));
           setResult(e.target.value);
         }}
         value={result}
+        placeholder="Search"
       />
     </div>
   );
