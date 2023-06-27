@@ -116,10 +116,10 @@ li {
 
 .li {
   margin: 0;
-  padding: 20px 10px 20px 10px;
+  padding: 25px 10px 25px 10px;
   list-style: none;
   width: 98.8vw;
-  height: 50px;
+  height: auto;
   justify-content: flex-start;
   align-items: center;
   display: flex;
@@ -196,4 +196,41 @@ li {
 .header-search {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.mic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px 10px 20px;
+  justify-content: flex-end;
+  background-color: #c92571;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-by {
+  border-bottom: 1px solid #ca397d;
+  padding: 10px 20px 10px 20px;
+}
+
+.views {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+  text-align: center;
+}
+
+.dax {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
