@@ -116,7 +116,7 @@ li {
 
 .li {
   margin: 0;
-  padding: 10px;
+  padding: 20px 10px 20px 10px;
   list-style: none;
   width: 98.8vw;
   height: 50px;
@@ -167,7 +167,7 @@ li {
   background-color: #ea4492;
   border: none;
   padding: 5px;
-  width: 20vw;
+  width: 30vw;
   border-radius: 5px;
   font-weight: bold;
 }
@@ -191,4 +191,9 @@ li {
 
 .countries li:nth-child(even) {
   background-color: var(--second);
+}
+
+.header-search {
+  display: flex;
+  flex-direction: row-reverse;
 }

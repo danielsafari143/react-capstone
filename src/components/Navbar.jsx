@@ -7,8 +7,8 @@ const Navbar = () => {
   const data = useSelector((state) => state.country);
 
   return (
-    <header className="header">
-      <Link to="/"><IconArrowLeft /></Link>
+    <header className={!data.isLoading ? 'header header-search' : 'header'}>
+      {data.isLoading ? <Link to="/"><IconArrowLeft /></Link> : ''}
       {!data.isLoading ? <Seach /> : ''}
     </header>
   );
