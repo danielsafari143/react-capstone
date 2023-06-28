@@ -1,5 +1,6 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux/es/hooks/useSelector';
+import { useSelector } from 'react-redux';
 import IconArrowLeft from './Arrow';
 import Seach from './Search';
 import IconMicFill from './Mic';

@@ -1,7 +1,6 @@
 import { useLocation } from 'react-router-dom';
-import { useSelector } from 'react-redux/es/hooks/useSelector';
-import { useDispatch } from 'react-redux';
-import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
 import { searchDetails, loading } from '../features/country/countrySlice';
 import SimpleMap from './map';
 import IconArrowRightCircle from './IconArrowRightCircle';
