@@ -13,6 +13,7 @@ function App() {
   useEffect(() => {
     dispatch(fetchCoutries());
   });
+
   return (
     <Routes>
       <Route path="/" element={<Main />}>

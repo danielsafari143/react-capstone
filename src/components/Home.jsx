@@ -1,7 +1,6 @@
-import { useSelector } from 'react-redux/es/hooks/useSelector';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { loading } from '../features/country/countrySlice';
 import IconArrowRightCircle from './IconArrowRightCircle';
 
@@ -19,7 +18,7 @@ const Home = () => {
                 data.country.map((item, index) => (
                   <li key={item.name.common}>
                     <Link
-                      className={((index + 3) % 2) === 0 ? 'country' : 'country  pair-red'}
+                      className={((index + 2) % 2) === 0 ? 'country' : 'country  pair-red'}
                       to="/details"
                       state={{ country: item.name.common }}
                     >
