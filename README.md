@@ -86,7 +86,7 @@ I selected the REST Countries API, which provides numeric data about countries a
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📺 Presentation <a name="presentation"></a>
-- [ScreenRec Presentation](https://www.loom.com/share/7b3d872fbbb8422ab34d7604614f0c61?sid=fc6b615c-2048-4e89-b6b8-2f49f97f2439)
+- [ScreenRec Presentation] ([Loom video](https://www.loom.com/share/7b3d872fbbb8422ab34d7604614f0c61?sid=fc6b615c-2048-4e89-b6b8-2f49f97f2439))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
