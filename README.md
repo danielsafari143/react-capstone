@@ -160,7 +160,7 @@ If the project was great as your view, don't hesitate to share and give it a sta
  
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
  
-- [the whole Microverse Community](https://www.microverse.org/)
+- The whole Microverse Community
 - [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) for the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
