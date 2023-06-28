@@ -81,7 +81,7 @@ I selected the REST Countries API, which provides numeric data about countries a
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [You can check the live demo here]([https://countries-cf1d.onrender.com](https://www.loom.com/share/87441e70ccce4f54a7fcc6deac1675a1?sid=ac49f219-0e43-4616-84e5-a162240556e9))
+- [You can check the live demo here] ([https://countries-cf1d.onrender.com](https://www.loom.com/share/87441e70ccce4f54a7fcc6deac1675a1?sid=ac49f219-0e43-4616-84e5-a162240556e9))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
